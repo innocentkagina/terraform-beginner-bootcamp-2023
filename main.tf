@@ -1,6 +1,6 @@
 terraform {
   cloud {
-      organization = "terrform-beginner-2023"
+      organization = "terraform-beginner-2023"
 
       workspaces {
         name = "terra-house-1"
