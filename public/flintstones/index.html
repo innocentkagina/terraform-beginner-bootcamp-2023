@@ -3,50 +3,96 @@
 <head>
   <title>The Flintstones</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <style>
     body {
       font-family: 'Roboto', sans-serif;
       margin: 0;
       padding: 20px;
+      background-color: #f5f5f5;
     }
     h1 {
       margin-bottom: 20px;
+      text-align: center;
+      color: #333333;
     }
     h2 {
       margin-top: 40px;
       margin-bottom: 10px;
+      color: #333333;
     }
     p {
       margin-bottom: 20px;
+      color: #666666;
     }
-    .image-container {
+    .character-container {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
     }
-    img {
-      width: 200px;
-      height: 200px;
-      margin: 10px;
+    .character {
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #ffffff;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .character img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
   <h1>The Flintstones</h1>
   
-  <h2>Fred Flintstone</h2>
-  <p>Fred Flintstone is the main character of the Flintstones TV show. He is a hardworking blue-collar worker who loves bowling and spending time with his family.</p>
-  <div class="image-container">
-    <img src="assets/fred.jpg" alt="Fred Flintstone">
+  <div class="character-container">
+    <div class="character">
+      <img src="assets/fred1.png" alt="Fred Flintstone">
+      <h2>Fred Flintstone</h2>
+      <p>Fred Flintstone is the main character of the Flintstones TV show. He is a hardworking blue-collar worker who loves bowling and spending time with his family.</p>
+    </div>
+
+    <div class="character">
+      <img src="assets/wilma.png" alt="Wilma Flintstone">
+      <h2>Wilma Flintstone</h2>
+      <p>Wilma Flintstone is Fred's wife and mother of Pebbles. Wilma is a homemaker who is known for her kind heart and sharp wit. She is often the voice of reason in the Flintstone household.</p>
+    </div>
+
+    <div class="character">
+      <img src="assets/barney.png" alt="Barney Rubble">
+      <h2>Barney Rubble</h2>
+      <p>Barney Rubble is Fred's best friend and neighbor. He is a loyal and caring husband to Betty Rubble and father to Bamm-Bamm. Barney is known for his playful nature and willingness to help his friends.</p>
+    </div>
+
+    <div class="character">
+      <img src="assets/betty.png" alt="Betty Rubble">
+      <h2>Betty Rubble</h2>
+      <p>Betty Rubble is Barney's wife and mother of Bamm-Bamm. She is a kind-hearted and supportive friend to Wilma Flintstone. Betty is known for her sweet nature and loyalty to her loved ones.</p>
+    </div>
+
+    <div class="character">
+      <img src="assets/pebbles.png" alt="Pebbles Flintstone">
+      <h2>Pebbles Flintstone</h2>
+      <p>Pebbles Flintstone is Fred and Wilma's daughter. She is a cute and curious baby who often gets into mischief. Pebbles is known for her signature hairstyle, which consists of a bone-shaped hair clip.</p>
+    </div>
+
+    <div class="character">
+      <img src="assets/bamm-bamm.png" alt="Bamm-Bamm Rubble">
+      <h2>Bamm-Bamm Rubble</h2>
+      <p>Bamm-Bamm Rubble is Barney and Betty's son. He is a strong and energetic toddler who has a habit of hitting things with his club. Bamm-Bamm is known for his catchphrase "Bamm-Bamm!"</p>
+    </div>
+
+    <div class="character">
+      <img src="assets/dino.gif" alt="Dino the Dog">
+      <h2>Dino the Dog</h2>
+      <p>Dino the Dog is the Flintstones' pet dinosaur. He is a lovable and playful companion who often gets into humorous situations. Dino is known for his loyalty and his ability to express emotions like a human.</p>
+    </div>
   </div>
-  
-  <h2>Barney Rubble</h2>
-  <p>Barney Rubble is Fred's best friend and neighbor. He is also a blue-collar worker and enjoys spending time with his family and playing golf.</p>
-  <div class="image-container">
-    <img src="assets/barney.jpg" alt="Barney Rubble">
-  </div>
+
 </body>
 </html>
