@@ -1,7 +1,7 @@
 terratowns_endpoint="https://terratowns.cloud/api"
-teacherseat_user_uuid="92e7bb7c-340e-4481-b069-79b4f94e9dce"
+teacherseat_user_uuid="e6e5af89-5da8-4fa1-a9f1-2f7d0a40a0f4"
 terratowns_access_token="ef36d3ae-3b20-490e-9389-0213ee49d049"
-index_html_filepath="/workspace/terraform-beginner-bootcamp-2023/public/index.html"
-error_html_filepath="/workspace/terraform-beginner-bootcamp-2023/public/error.html"
-assets_path="/workspace/terraform-beginner-bootcamp-2023/public/assets"
-content_version=1
+flintstones = {
+  public_path = "/workspace/terraform-beginner-bootcamp-2023/public/flintstones"
+  content_version = 1
+}

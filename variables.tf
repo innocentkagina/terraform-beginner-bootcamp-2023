@@ -8,21 +8,9 @@ variable "terratowns_access_token" {
   type = string
 }
 
-
-variable "index_html_filepath" {
-  type = string
-}
-
-variable "error_html_filepath" {
-   type = string
-}
-
-variable "content_version" {
-  type = number
-
-  }
-
-variable "assets_path" {
-  description = "Path to assets folder"
-  type = string
+ variable "flintstones" {
+  type = object({
+    public_path = string
+    content_version = number
+  })
 }
