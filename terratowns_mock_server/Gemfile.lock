@@ -20,11 +20,11 @@ GEM
     minitest (5.20.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.7.1)
+    nio4r (2.7.3)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    puma (6.4.2)
+    puma (6.4.3)
       nio4r (~> 2.0)
     rack (3.0.10)
     rack-protection (4.0.0)
@@ -51,7 +51,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   pry
-  puma (>= 6.4.2)
+  puma (>= 6.4.3)
   rake
   sinatra (>= 4.0.0)
 
